@@ -1,15 +1,26 @@
 {
   "name": "betting",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "circular-json": "^0.5.9",
     "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heyeman/crap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Heyeman/crap/issues"
+  },
+  "homepage": "https://github.com/Heyeman/crap#readme",
+  "description": "",
+  "devDependencies": {
+    "axios": "^0.24.0"
   }
 }

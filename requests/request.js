@@ -20,7 +20,7 @@ const countries = await axios.request(optionCountries);
 const champs = await axios.request(optionTournaments);
 const res = {countries: countries.data.body,
 tournaments: champs.data.body}
-console.log(countries.data);
+//console.log(countries.data);
 /*fs.appendFile('responses.js', response.data, (err) => {
     if(err) throw err;
     console.log('***\n***\n***************************file created **********');
