@@ -5,8 +5,9 @@ const routes = require('./routes/routes')
 
 app.use('/', routes);
 
-/*app.listen(3932, () => {
-  console.log('Example app listening on port 3000!');
-});*/
 
-module.exports = {app}
+const port = process.env.PORT || 5000;
+
+app.listen(port, () => {
+    console.log(`Server listening at ${port}`);
+});
